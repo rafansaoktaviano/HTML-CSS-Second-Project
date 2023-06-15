@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  width: 100%;
+
+  
+}
+
+.background {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/Project2/background\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-top: 100px; */
+  padding-top: 300px;
+
+}
+.text-content {
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  top: 25%;
+
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #29795a;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar .logo {
+  background-size: cover;
+  position: absolute;
+  left: 135px;
+  font-size: 20px;
+  cursor: none;
+}
+.navbar .logo span {
+  color: orange;
+}
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 20px;
+  font-size: 16px;
+}
+.navbar a {
+  color: rgba(255, 255, 255, .9);
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color:  white;
+  /* text-decoration: underline; */
+
+}
+
+.text-content {
+  color: white;
+  text-align: center;
+  font-size: 64px;
+  /* margin-top: 50px; */
+
+
+}
+.underline {
+  position: relative;
+  z-index: 1;
+}
+.underline:before {
+  content: "";
+  position: absolute;
+  width: 23.5%;
+  height: 5px;
+  border-radius: 50px;
+  background-color: orange;
+  bottom: 0;
+}
+button {
+  font-size: 18px;
+  padding: 20px;
+  background-color: #f6b50e;
+  border: none;
+  color: white;
+  margin-top: 50px;
+  cursor: pointer;
+}
+button:hover {
+ 
+  background-color: orange;
+  
+}
+.shop {
+  margin: 80px 135px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 38px;
+}
+.shop-text {
+  position: relative;
+}
+.shop-text::before {
+  content: "";
+  width: 50%;
+  height: 4px;
+  background-color: orange;
+  position: absolute;
+  bottom: -10px;
+  left: 25%;
+}
+.shop .see {
+  font-size: 18px;
+}
+.shop-content {
+  display: flex;
+  margin: 80px 135px;
+  justify-content: space-between;
+}
+.container {
+  width: 270px;
+  height: 360px;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container p {
+  font-size: 32px;
+  margin: 50px 0;
+}
+
+.furniture-1 {
+  background-image: url(/Project2/Chair.png);
+  width: 161px;
+  height: 227px;
+  background-size: cover;
+}
+.furniture-2 {
+  background-image: url(/Project2/Cabinet.png);
+  width: 161px;
+  height: 227px;
+  background-size: cover;
+}
+.furniture-3 {
+  background-image: url(/Project2/Table.png);
+  width: 100%;
+  height: 227px;
+  background-size: cover;
+}
+.furniture-4 {
+  background-image: url(/Project2/lamp.png);
+  width: 100%;
+  height: 227px;
+  background-size: cover;
+}
+
+.simple-bed {
+  margin: 80px 135px;
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.bed {
+  width: 644px;
+  height: 425px;
+  border-radius: 8px;
+  background-image: url(/Project2/simplebed.png);
+}
+.bed-details {
+  margin: 40px 60px;
+}
+.bed-details h1 {
+  font-size: 38px;
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.bed-details p {
+  font-size: 20px;
+  color: #686767;
+  width: 50%;
+  line-height: 30px;
+}
+
+.disc-hehe {
+  margin: 80px 135px;
+}
+
+.disc {
+  background-image: url(/Project2/disc2.png);
+  width: 100%;
+  height: 525px;
+  border-radius: 24px;
+  padding: 50px;
+  background-size: cover;
+}
+.disc-details {
+  font-size: 42px;
+  color: white;
+  margin-top: 100px;
+}
+
+.disc-details p {
+  width: 30%;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #29795a;
+}
+.footer-list {
+  display: flex;
+}
+.list {
+  margin: 80px 135px 50px 135px;
+}
+.list ul {
+  margin-top: 20px;
+}
+.list h1 {
+  font-size: 24px;
+  color: white;
+}
+.list li {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.list a {
+  text-decoration: none;
+  color: #eeeff4;
+}
+.list a:hover {
+
+  color: white;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}

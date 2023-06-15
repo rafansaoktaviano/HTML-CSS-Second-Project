@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #29795a;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.navbar .logo {
+  background-size: cover;
+  position: absolute;
+  left: 135px;
+  font-size: 20px;
+  cursor: none;
+}
+.navbar .logo span {
+  color: orange;
+}
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+  margin: 20px;
+  font-size: 16px;
+}
+.navbar a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar a:hover {
+  color: white;
+  /* text-decoration: underline; */
+}
+.background-hehe {
+  margin: 135px 135px 0 135px;
+}
+.background {
+  width: 100%;
+  height: 393px;
+  background-image: url(/Project2/disc2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0 24px 24px;
+}
+.background .text {
+  text-align: center;
+  font-size: 42px;
+  color: white;
+  line-height: 400px;
+}
+.popular {
+  margin: 60px 135px;
+  font-size: 38px;
+  position: relative;
+}
+.popular::before {
+  content: "";
+  width: 3%;
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  background-color: orange;
+  border-radius: 50px;
+}
+.all-products {
+    margin: 60px 105px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+
+    
+}
+.wrap {
+    width: 270px;
+    height: 386px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 12px; 
+    margin: 30px;
+    line-height: 30px;
+
+
+}   
+
+
+.product {
+    width: 270px;
+    height: 270px;
+    background-image: url(/Project2/product1.png);
+    border-radius: 12px;
+}
+
+.wrap p  {
+    color: #676767;
+    font-size: 15px;
+}
+.wrap .merk {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+} 
+.wrap .price {
+   color: black;
+    font-size: 18px; 
+    margin-bottom: 10px;
+}
+
+.product2 {
+    width: 270px;
+    height: 270px;
+    background-image: url(/Project2/product2.png);
+    border-radius: 12px;
+}
+.product3 {
+    width: 270px;
+    height: 270px;
+    background-image: url(/Project2/product3.png);
+    border-radius: 12px;
+}
+.product4 {
+    width: 270px;
+    height: 270px;
+    background-image: url(/Project2/product4.png);
+    border-radius: 12px;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #29795a;
+}
+.footer-list {
+  display: flex;
+}
+.list {
+  margin: 80px 135px 50px 135px;
+}
+.list ul {
+  margin-top: 20px;
+}
+.list h1 {
+  font-size: 24px;
+  color: white;
+}
+.list li {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.list a {
+  text-decoration: none;
+  color: #eeeff4;
+}
+.list a:hover {
+
+  color: white;
+}
