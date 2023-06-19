@@ -8,6 +8,7 @@
 }
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -99,7 +100,7 @@ body {
     border-radius: 12px; 
     margin: 30px;
     line-height: 30px;
-
+    text-align: center;
 
 }   
 
@@ -151,9 +152,11 @@ footer {
 }
 .footer-list {
   display: flex;
+  justify-content: space-between;
 }
 .list {
-  margin: 80px 135px 50px 135px;
+  /* margin: 80px 135px 50px 135px; */
+  padding: 50px;
 }
 .list ul {
   margin-top: 20px;
@@ -175,4 +178,17 @@ footer {
 .list a:hover {
 
   color: white;
+}
+
+@media (max-width: 1580px) {
+  .container {
+    /* width: 220px;
+  height: 360px; */
+  }
+  .list a {
+    font-size:14px;
+  }
+  .underline:before{
+    width: 24%;
+  }
 }
