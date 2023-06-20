@@ -181,10 +181,7 @@ footer {
 }
 
 @media (max-width: 1580px) {
-  .container {
-    /* width: 220px;
-  height: 360px; */
-  }
+ 
   .list a {
     font-size:14px;
   }
