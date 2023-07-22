@@ -14,7 +14,7 @@ body {
 .background {
   width: 100%;
   height: 100vh;
-  background-image: url(/Project2/background\ 1.png);
+  background-image: url(/background\ 1.png);
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-top: 100px; */
@@ -132,25 +132,25 @@ button:hover {
 }
 
 .furniture-1 {
-  background-image: url(/Project2/Chair.png);
+  background-image: url(/Chair.png);
   width: 161px;
   height: 227px;
   background-size: cover;
 }
 .furniture-2 {
-  background-image: url(/Project2/Cabinet.png);
+  background-image: url(/Cabinet.png);
   width: 161px;
   height: 227px;
   background-size: cover;
 }
 .furniture-3 {
-  background-image: url(/Project2/Table.png);
+  background-image: url(/Table.png);
   width: 100%;
   height: 227px;
   background-size: cover;
 }
 .furniture-4 {
-  background-image: url(/Project2/lamp.png);
+  background-image: url(/lamp.png);
   width: 100%;
   height: 227px;
   background-size: cover;
@@ -167,7 +167,7 @@ button:hover {
   width: 644px;
   height: 425px;
   border-radius: 8px;
-  background-image: url(/Project2/simplebed.png);
+  background-image: url(/simplebed.png);
 }
 .bed-details {
   margin: 40px 60px;
@@ -190,7 +190,7 @@ button:hover {
 }
 
 .disc {
-  background-image: url(/Project2/disc2.png);
+  background-image: url(disc2.png);
   width: 100%;
   height: 525px;
   border-radius: 24px;

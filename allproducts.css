@@ -57,7 +57,7 @@ body {
 .background {
   width: 100%;
   height: 393px;
-  background-image: url(/Project2/disc2.png);
+  background-image: url(/disc2.png);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0px 0 24px 24px;
@@ -108,7 +108,7 @@ body {
 .product {
     width: 270px;
     height: 270px;
-    background-image: url(/Project2/product1.png);
+    background-image: url(/product1.png);
     border-radius: 12px;
 }
 
@@ -130,19 +130,19 @@ body {
 .product2 {
     width: 270px;
     height: 270px;
-    background-image: url(/Project2/product2.png);
+    background-image: url(/product2.png);
     border-radius: 12px;
 }
 .product3 {
     width: 270px;
     height: 270px;
-    background-image: url(/Project2/product3.png);
+    background-image: url(/product3.png);
     border-radius: 12px;
 }
 .product4 {
     width: 270px;
     height: 270px;
-    background-image: url(/Project2/product4.png);
+    background-image: url(/product4.png);
     border-radius: 12px;
 }
 footer {
